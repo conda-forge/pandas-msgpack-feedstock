@@ -14,14 +14,16 @@ Summary: Pandas interface to msgpack
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pandas-msgpack-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pandas-msgpack-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/pandas-msgpack-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pandas-msgpack-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/pandas-msgpack-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/pandas-msgpack-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/pandas-msgpack-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/pandas-msgpack-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/pandas-msgpack-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/pandas-msgpack-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/pandas-msgpack-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/pandas-msgpack-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pandas-msgpack/badges/version.svg)](https://anaconda.org/conda-forge/pandas-msgpack)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pandas-msgpack/badges/downloads.svg)](https://anaconda.org/conda-forge/pandas-msgpack)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-pandas--msgpack-green.svg)](https://anaconda.org/conda-forge/pandas-msgpack) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/pandas-msgpack.svg)](https://anaconda.org/conda-forge/pandas-msgpack) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/pandas-msgpack.svg)](https://anaconda.org/conda-forge/pandas-msgpack) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/pandas-msgpack.svg)](https://anaconda.org/conda-forge/pandas-msgpack) |
 
 Installing pandas-msgpack
 =========================
@@ -66,6 +68,7 @@ To manage the continuous integration and simplify feedstock maintenance
 Using the ``conda-forge.yml`` within this repository, it is possible to re-render all of
 this feedstock's supporting files (e.g. the CI configuration files) with ``conda smithy rerender``.
 
+For more information please check the [conda-forge documentation](https://conda-forge.org/docs/).
 
 Terminology
 ===========
