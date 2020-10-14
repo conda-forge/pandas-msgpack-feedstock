@@ -33,7 +33,7 @@ test:
 
 about:
   home: https://github.com/pydata/pandas-msgpack
-  license: BSD 3-clause
+  license: BSD-3-Clause
   license_file: LICENSE.md
   summary: 'Pandas interface to msgpack'
 
