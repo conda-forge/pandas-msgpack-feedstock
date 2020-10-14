@@ -12,15 +12,17 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
-  script: python setup.py install --single-version-externally-managed --record record.txt
+  number: 1
+  script: {{ PYTHON }} -m pip install --no-deps -vv .
 
 requirements:
   build:
+    - {{ compiler('c') }}
+    - {{ compiler('cxx') }}
+  host:
     - python
-    - setuptools
+    - pip
     - cython
-
   run:
     - python
     - pandas
@@ -31,7 +33,8 @@ test:
 
 about:
   home: https://github.com/pydata/pandas-msgpack
-  license: BSD 3-clause
+  license: BSD-3-Clause
+  license_file: LICENSE.md
   summary: 'Pandas interface to msgpack'
 
   doc_url: http://pandas-msgpack.readthedocs.io
